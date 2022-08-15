@@ -19,4 +19,4 @@ def convert(typeFrom, typeTo, value):
 
   return response
 
-app.run(host="192.168.43.239", port=5000, debug=True)
+app.run(port=5000)
