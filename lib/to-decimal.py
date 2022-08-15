@@ -1,17 +1,14 @@
-# def binaryToDecimal(binary_num):
-# binary_num = list(input("Input the binary number to convert: "))
-# value = 0
+def binaryToDecimal(binary_num):
+	binary_num = list(binary_num)
+	value = 0
 
-# for i in range(len(binary_num)):
-# 	digit = binary_num.pop()
-	
-# 	if digit == "1":
-# 		value = value + pow(2,i)
+	for i in range(len(binary_num)):
+		digit = binary_num.pop()
+		
+		if digit == "1":
+			value = value + pow(2,i)
 
-# if digit == "1":
-# 	print("The decimal value of the number is", value)
-# else:
-# 	print("Invalid input")
+	return value
 
 def octalToDecimal(value):
 	chk = 0
