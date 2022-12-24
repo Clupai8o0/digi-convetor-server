@@ -51,3 +51,5 @@ def convert(fromType, toType, value):
   response.headers.add("Access-Control-Allow-Origin", "*")
   
   return response
+
+app.run()
